@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+ <div class="homebg">
+        <nav>
+            
+            <i onclick="OpenNav()"  class="fas fa-bars fa-2x"></i>
+        </nav>
+        <div id="side-nav">
+            <i  onclick="CloseNav()"  class="fas fa-times fa-2x"></i>
+            <a href="#">Home</a>
+            <a href="./index.html">Library</a>
+            <a href="./contribute.html">Contribute</a>
+            <a href="#">SignUp</a>
+            <a href="#">SignIn</a>
+        </div>
+    </div>
+    <div class="sec">
+        <h1>What Is Copyright?</h1>
+        <p>When a person creates an image – or another type of intellectual property – the copyright to that piece of work is automatically assigned to the creator, which means they can decide how it is used and distributed. The creator does not need to provide a copyright notice or register their work with a copyright office. Though a copyright notice can be useful in online image protection and registering does grant additional protection in some countries, including the right to statutory damages.</p>
+       <h1> Where did copyright come from?</h1>
+       <p> Copyright is not a new idea. The first copyright act was signed in 1709 in the UK, and the concept of recognizing and protecting the work of creators has been important ever since. The Berne Convention of 1886 was the first international agreement on the global management of copyright. Today, the basic concept remains internationally recognized, though the degree of enforcement might differ between jurisdictions.</p>
+        <h1>How can i use copyright images? is it fair to do so ?</h1>
+        <p>Fair use is not the same as free use. Fair use is a legal exception to the exclusive rights an owner has for his or her copyrighted work.</p>
+        <p>A classic example of fair use of an image online is product reviews. If you want to review a book, a new piece of technology, a food product or whatever widget, you'll likely want to include a photo. But not some washed-out, overexposed, shadowy, laundry in the background kind of photo that you'd take.
+
+            So you head to the manufacturer's website and right-click that image and save it to upload to your site. A photo will not substitute for the actual product, so the owner's rights should be very minimally affected. Therefore, your right to use the copyrighted image would likely be permitted under fair use.</p>
+    </div>
+
+    <div class="homefoo">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-facbook-f fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+
+        </div>
+       
+    </div>
+        <script>
+            const sideNav = document.getElementById('side-nav');
+    
+            function OpenNav(){
+                sideNav.style.width='250px';
+            }
+            function CloseNav(){
+                sideNav.style.width='0px';
+            }
+    
+    
+    
+        </script>
+</body>
+</html>
